@@ -2,3 +2,50 @@ body {
     display: flex;
     flex-direction: column;
 }
+.top, footer {
+    background-color: #1F2937;
+}
+header {
+    display: flex; 
+}
+header h3 {
+    font-size: 18px;
+    color:#F9FAF8;
+}
+.links{
+    display: flex;
+}
+.hero-section {
+   display: flex;
+}
+.content h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.content p, .links a, footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button, .cta{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:900;
+}
+.card p {
+    color:gray;
+}
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+}
+.quote p {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+}
+
