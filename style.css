@@ -2,19 +2,21 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    gap: 50px;
 }
 .top, footer {
     background-color: #1F2937;
 }
 .top {
-    padding: 5px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    padding: 0 120px;
 }
 header {
     display: flex; 
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
-   
 }
 header h3 {
     font-size: 18px;
@@ -23,7 +25,6 @@ header h3 {
 .links{
     display: flex;
     gap: 12px;
-
 }
 a {
     text-decoration: none;
@@ -33,25 +34,34 @@ li {
 }
 .hero-section {
    display: flex;
-    gap:20px; 
-   padding: 10px;
-   
+   gap:20px;
+   padding: 20px 0;
 }
 .hero-content , .img-hero {
-    flex:1;
     min-width: 0;
 }
-.img-hero img {
-    max-width: auto;
-    width: 90%;
-    height: 250px;
-    display: block;
-
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex:3;
+    align-items: flex-start;
 }
+.img-hero {
+    flex: 2;
+}
+.img-hero img {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .hero-content h2{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
 }
 .hero-content p, .links a, footer {
     font-size: 18px;
@@ -60,6 +70,9 @@ li {
 button, .cta{
     background-color: #3882F6;
     color: #E5E7EB;
+    font-weight: 600;
+    padding: 8px 30px;
+    border-radius: 7px;
 }
 .info h2 {
     font-size: 36px;
