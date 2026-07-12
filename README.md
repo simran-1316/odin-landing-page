@@ -2,6 +2,9 @@
 
 A modern landing page built as part of **The Odin Project** Foundations curriculum. This project focuses on building a complete webpage from a given design using HTML and CSS, with an emphasis on Flexbox for layout.
 
+## Live View
+https://simran-1316.github.io/odin-landing-page
+
 ## 📸 Preview
 
 ![CodeSlay Landing Page](preview.png)
